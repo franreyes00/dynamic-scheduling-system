@@ -1,0 +1,35 @@
+{
+  "name": "dynamic-scheduling-system",
+  "version": "1.0.0",
+  "description": "Scheduling system using TypeScript and Node.js.",
+  "keywords": [
+    "schedule",
+    "typeScript",
+    "Node"
+  ],
+  "homepage": "https://github.com/franreyes00/dynamic-scheduling-system#readme",
+  "bugs": {
+    "url": "https://github.com/franreyes00/dynamic-scheduling-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franreyes00/dynamic-scheduling-system.git"
+  },
+  "license": "ISC",
+  "author": "Fran Reyes 00",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^5.7.3"
+  }
+}
