@@ -3,9 +3,9 @@ import { getTasks, Task } from '../tasks/taskManager';
 import { sanitizeTasks } from '../utils/sanitizeTasks';
 import { removeProblematicNode } from '../utils/problematicNodeHandler';
 
-jest.mock('./tasks/taskManager');
-jest.mock('./utils/sanitizeTasks');
-jest.mock('./utils/problematicNodeHandler');
+jest.mock('../tasks/taskManager');
+jest.mock('../utils/sanitizeTasks');
+jest.mock('../utils/problematicNodeHandler');
 
 describe('runAllTasks - Simple and Multiple Dependencies', () => {
   let tasks: Task[];
